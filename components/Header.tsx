@@ -13,8 +13,8 @@ export default function Header() {
             </div>
           </div>
           <div className="hidden md:flex items-center space-x-2 bg-white/10 px-4 py-2 rounded-lg">
-            <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-            <span className="text-sm">API Connected</span>
+            <div className="w-3 h-3 bg-gray-300 rounded-full"></div>
+            <span className="text-sm">Backend required</span>
           </div>
         </div>
       </div>
