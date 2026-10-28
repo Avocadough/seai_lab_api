@@ -1,6 +1,14 @@
-# YOLO Detection Frontend
-
-A Next.js lab interface for uploading an image to a separate object-detection API and displaying its response.
+<div align="center">
+  <h1>YOLO Detection Frontend</h1>
+  <p>An image-upload interface for a separate object-detection API.</p>
+  <p>
+    <img alt="Next.js 16.1.6" src="https://img.shields.io/badge/Next.js-16.1.6-18181b">
+    <img alt="React 19.2.3" src="https://img.shields.io/badge/React-19.2.3-147ca4">
+  </p>
+  <p>
+    <a href="#workflow">Workflow</a> &nbsp;·&nbsp; <a href="#run-locally">Run locally</a> &nbsp;·&nbsp; <a href="#notes">Notes</a>
+  </p>
+</div>
 
 ## Workflow
 
