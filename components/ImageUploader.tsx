@@ -3,15 +3,7 @@
 import { useState, useRef, DragEvent, ChangeEvent } from 'react'
 import axios from 'axios'
 
-interface Detection {
-  class: string
-  conf: number | null
-}
-
-interface PredictionResult {
-  detections: Detection[]
-  imagedetect: string
-}
+import type { PredictionResult } from '@/types/prediction'
 
 interface Props {
   onPrediction: (result: PredictionResult) => void

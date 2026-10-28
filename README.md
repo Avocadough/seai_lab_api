@@ -36,6 +36,7 @@ Other package-manager commands from the original starter README are `yarn dev`, 
 - [`app/page.tsx`](app/page.tsx) coordinates the upload and results.
 - [`components/ImageUploader.tsx`](components/ImageUploader.tsx) validates files and calls the API.
 - [`components/DetectionResults.tsx`](components/DetectionResults.tsx) renders the response.
+- [`types/prediction.ts`](types/prediction.ts) defines the response type shared by the page and components.
 
 ## Notes
 

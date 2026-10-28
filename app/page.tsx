@@ -5,15 +5,7 @@ import Header from '@/components/Header'
 import ImageUploader from '@/components/ImageUploader'
 import DetectionResults from '@/components/DetectionResults'
 
-interface Detection {
-  class: string
-  conf: number | null
-}
-
-interface PredictionResult {
-  detections: Detection[]
-  imagedetect: string
-}
+import type { PredictionResult } from '@/types/prediction'
 
 export default function Home() {
   const [result, setResult] = useState<PredictionResult | null>(null)

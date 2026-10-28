@@ -1,14 +1,6 @@
 'use client'
 
-interface Detection {
-  class: string
-  conf: number | null
-}
-
-interface PredictionResult {
-  detections: Detection[]
-  imagedetect: string
-}
+import type { PredictionResult } from '@/types/prediction'
 
 interface Props {
   result: PredictionResult | null
